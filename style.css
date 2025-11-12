@@ -1,0 +1,16 @@
+#post-container{
+    max-width: 1160px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-gap:20px;
+    gap: 50px 30px;
+}
+
+.post-Card{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+    height: 100%;
+}
